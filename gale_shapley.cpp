@@ -82,6 +82,7 @@ void GaleShapley::test(){
   this->a.AdicionaPreferencia(3,4);
   this->a.AdicionaPreferencia(3,1);
 
+  /*
   this->a.AdicionaPreferencia(4,1);
   this->a.AdicionaPreferencia(4,4);
   this->a.AdicionaPreferencia(4,3);
@@ -93,36 +94,37 @@ void GaleShapley::test(){
   this->a.AdicionaPreferencia(5,1);
   this->a.AdicionaPreferencia(5,5);
   this->a.AdicionaPreferencia(5,3);
+  */
 
-  this->b.AdicionaPreferencia(1,5);
+  this->b.AdicionaPreferencia(1,3);
   this->b.AdicionaPreferencia(1,1);
   this->b.AdicionaPreferencia(1,2);
-  this->b.AdicionaPreferencia(1,4);
-  this->b.AdicionaPreferencia(1,3);
+  //this->b.AdicionaPreferencia(1,4);
+  //this->b.AdicionaPreferencia(1,3);
 
   this->b.AdicionaPreferencia(2,3);
   this->b.AdicionaPreferencia(2,2);
-  this->b.AdicionaPreferencia(2,4);
   this->b.AdicionaPreferencia(2,1);
-  this->b.AdicionaPreferencia(2,5);
+  //this->b.AdicionaPreferencia(2,1);
+  //this->b.AdicionaPreferencia(2,5);
 
   this->b.AdicionaPreferencia(3,2);
   this->b.AdicionaPreferencia(3,3);
-  this->b.AdicionaPreferencia(3,4);
-  this->b.AdicionaPreferencia(3,5);
   this->b.AdicionaPreferencia(3,1);
+  //this->b.AdicionaPreferencia(3,5);
+  //this->b.AdicionaPreferencia(3,1);
   
   this->b.AdicionaPreferencia(4,1);
-  this->b.AdicionaPreferencia(4,5);
-  this->b.AdicionaPreferencia(4,4);
-  this->b.AdicionaPreferencia(4,3);
   this->b.AdicionaPreferencia(4,2);
+  this->b.AdicionaPreferencia(4,3);
+  //this->b.AdicionaPreferencia(4,3);
+  //this->b.AdicionaPreferencia(4,2);
 
-  this->b.AdicionaPreferencia(5,4);
-  this->b.AdicionaPreferencia(5,2);
-  this->b.AdicionaPreferencia(5,5);
   this->b.AdicionaPreferencia(5,3);
+  this->b.AdicionaPreferencia(5,2);
   this->b.AdicionaPreferencia(5,1);
+  //this->b.AdicionaPreferencia(5,3);
+  //this->b.AdicionaPreferencia(5,1);
 
 /*
   this->a.AdicionaPreferencia(1,1);
